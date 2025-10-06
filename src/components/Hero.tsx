@@ -4,8 +4,7 @@ import heroImage from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
   const handleDownloadResume = () => {
-    // Placeholder for resume download functionality
-    window.open("#", "_blank");
+    window.open("/resume.pdf", "_blank");
   };
 
   const scrollToContact = () => {
